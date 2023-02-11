@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentView: TableOfContent
-  PreviousView: 
-  DomainReloadOccured: 0
-  IsOpen: 0
+  PreviousView: TableOfContent
+  DomainReloadOccured: 1
+  IsOpen: 1
   AreTestsRunning: 0
   CurrentTutorial: {fileID: 0}
-  PlayModeChanging: 0
+  PlayModeChanging: 1
   ActiveScenesBeforeTutorialStarted: []
   SceneViewStateBeforeTutorialStarted:
     In2DMode: 0

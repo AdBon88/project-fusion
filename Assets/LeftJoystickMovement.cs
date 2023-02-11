@@ -1,56 +1,20 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
-using Oculus.XR;
-using System;
+using UnityEngine.XR;
 
-public class OculusController : MonoBehaviour
+public class MoveSpriteWithJoystick : MonoBehaviour
 {
-    XRController controller;
-
-    private void Awake()
-    {
-        controller = GetComponent<XRController>();
-    }
+    private Vector2 joystickPosition;
 
     private void Update()
     {
-    
-        Console.WriteLine("HERE");
-        if (controller.inputDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue) && primaryButtonValue)
-        {
-            // Code to change properties of game objects goes here
-        }
+        InputDevice leftOculusTouch = InputDevices.GetDeviceAtXRNode(XRNode.LeftHand);
 
-        if (controller.inputDevice.TryGetFeatureValue(CommonUsages.secondaryButton, out bool secondaryButtonValue) && secondaryButtonValue)
+        if (leftOculusTouch.TryGetFeatureValue(CommonUsages.primary2DAxis, out joystickPosition))
         {
-            // Code to change properties of game objects goes here
+            Vector3 newPosition = transform.position;
+            newPosition.x += joystickPosition.x * Time.deltaTime;
+            newPosition.y += joystickPosition.y * Time.deltaTime;
+            transform.position = newPosition;
         }
     }
 }
-
-
-
-// using UnityEngine;
-// using System;
-
-// public class JoystickMapper : MonoBehaviour
-// {
-//     public float speed = 10.0f;
-//     private Transform gameObjectTransform;
-
-//     void Start()
-//     {
-//         gameObjectTransform = GetComponent<Transform>();
-//     }
-
-//     void Update()
-//     {
-//         float horizontal = Input.GetAxis("XRI_Left_Primary2DAxis_Horizontal");
-//         Console.WriteLine(horizontal);
-//         float vertical = Input.GetAxis("XRI_Left_Primary2DAxis_Vertical");
-//         Vector3 position = gameObjectTransform.position;
-//         position.x += horizontal * speed * Time.deltaTime;
-//         position.y += vertical * speed * Time.deltaTime;
-//         gameObjectTransform.position = position;
-//     }
-// }

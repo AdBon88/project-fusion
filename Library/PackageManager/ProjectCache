@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638112800496658133
-    m_Hash: 2987421301
+      ticks: 638112803677907627
+    m_Hash: 948825368
   m_LockFileStatus:
     m_FilePath: C:/dev/Unity/Project-Fusion/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638112800503722345
-    m_Hash: 2057599796
+      ticks: 638112803678160890
+    m_Hash: 982261372
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -867,6 +867,135 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.8.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.interaction.toolkit@2.2.0
+  testable: 0
+  isDirectDependency: 1
+  version: 2.2.0
+  source: 1
+  resolvedPath: C:\dev\Unity\Project-Fusion\Library\PackageCache\com.unity.xr.interaction.toolkit@2.2.0
+  assetPath: Packages/com.unity.xr.interaction.toolkit
+  name: com.unity.xr.interaction.toolkit
+  displayName: XR Interaction Toolkit
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: asset
+  description: A high-level, component-based, interaction system for creating VR
+    and AR experiences. It provides a framework that makes 3D and UI interactions
+    available from Unity input events. The core of this system is a set of base Interactor
+    and Interactable components, and an Interaction Manager that ties these two types
+    of components together. It also contains components that you can use for locomotion
+    and drawing visuals.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.6-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.10.0-preview.7
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.0.0-pre.8
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0-pre.7
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.1.0-pre.1
+    - 2.1.1
+    - 2.2.0
+    - 2.3.0-pre.1
+    compatible:
+    - 2.2.0
+    - 2.3.0-pre.1
+    recommended: 2.2.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.8
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.inputsystem
+    version: 1.4.4
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.1.1
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  keywords:
+  - XR
+  - VR
+  - toolkit
+  - interaction
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638009916820000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
+    revision: bb21b025f22df3ff22db8542eeee45c154640b88
+    path: 
+  unityLifecycle:
+    version: 2.2.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3085,6 +3214,116 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.inputsystem@1.4.4
+  testable: 0
+  isDirectDependency: 0
+  version: 1.4.4
+  source: 1
+  resolvedPath: C:\dev\Unity\Project-Fusion\Library\PackageCache\com.unity.inputsystem@1.4.4
+  assetPath: Packages/com.unity.inputsystem
+  name: com.unity.inputsystem
+  displayName: Input System
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A new input system which can be used as a more extensible and customizable
+    alternative to Unity's classic input system in UnityEngine.Input.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.5.0
+    compatible:
+    - 1.4.4
+    - 1.5.0
+    recommended: 1.4.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - input
+  - events
+  - keyboard
+  - mouse
+  - gamepad
+  - touch
+  - vr
+  - xr
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638030660210000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/InputSystem.git
+    revision: 59db7b7bcc31bad254947e3189e6ec125f67e3e7
+    path: 
+  unityLifecycle:
+    version: 1.4.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3148,6 +3387,84 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.core-utils@2.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.1
+  source: 1
+  resolvedPath: C:\dev\Unity\Project-Fusion\Library\PackageCache\com.unity.xr.core-utils@2.1.1
+  assetPath: Packages/com.unity.xr.core-utils
+  name: com.unity.xr.core-utils
+  displayName: XR Core Utilities
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "Common utility classes for XR projects\nRefer to API documentation
+    for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
+    \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
+    Check if point inside of polygon\n  \u25AA Compute 2D convex hull\n\u25AA Collection
+    pool\n\u25AA Math Utilities\n  \u25AA Bounds extensions\n  \u25AA Quaternion
+    extensions\n\u25AA Editor GUI\n  \u25AA Flags Property Drawer\n\u25AA Scriptable
+    Settings (serialized project settings)\n\u25AA Conditional Compilation Utility\n\u25AA
+    XR Origin Implementation"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.1.1
+    compatible:
+    - 2.1.1
+    recommended: 2.1.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
+    revision: 6d113bacc7ee68f6606c8b20be8c5edfb802b470
+    path: 
+  unityLifecycle:
+    version: 2.1.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4062,116 +4379,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.inputsystem@1.4.4
-  testable: 0
-  isDirectDependency: 0
-  version: 1.4.4
-  source: 1
-  resolvedPath: C:\dev\Unity\Project-Fusion\Library\PackageCache\com.unity.inputsystem@1.4.4
-  assetPath: Packages/com.unity.inputsystem
-  name: com.unity.inputsystem
-  displayName: Input System
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: A new input system which can be used as a more extensible and customizable
-    alternative to Unity's classic input system in UnityEngine.Input.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.2-preview
-    - 0.2.0-preview
-    - 0.2.1-preview
-    - 0.2.6-preview
-    - 0.2.8-preview
-    - 0.2.10-preview
-    - 0.9.0-preview
-    - 0.9.1-preview
-    - 0.9.2-preview
-    - 0.9.3-preview
-    - 0.9.4-preview
-    - 0.9.5-preview
-    - 0.9.6-preview
-    - 1.0.0-preview
-    - 1.0.0-preview.1
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.0-preview.5
-    - 1.0.0-preview.6
-    - 1.0.0-preview.7
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.1.0-pre.5
-    - 1.1.0-pre.6
-    - 1.1.0-preview.1
-    - 1.1.0-preview.2
-    - 1.1.0-preview.3
-    - 1.1.1
-    - 1.2.0
-    - 1.3.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
-    - 1.5.0
-    compatible:
-    - 1.4.4
-    - 1.5.0
-    recommended: 1.4.4
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords:
-  - input
-  - events
-  - keyboard
-  - mouse
-  - gamepad
-  - touch
-  - vr
-  - xr
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638030660210000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 59db7b7bcc31bad254947e3189e6ec125f67e3e7
-    path: 
-  unityLifecycle:
-    version: 1.4.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
