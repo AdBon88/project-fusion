@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638112803677907627
-    m_Hash: 948825368
+      ticks: 638116901812851107
+    m_Hash: 3953601439
   m_LockFileStatus:
     m_FilePath: C:/dev/Unity/Project-Fusion/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638112803678160890
-    m_Hash: 982261372
+      ticks: 638116901812851107
+    m_Hash: 2867035094
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -3407,7 +3407,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "Common utility classes for XR projects\nRefer to API documentation
     for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
     \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
@@ -3420,9 +3420,20 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0-pre.1
+    - 2.1.0
     - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
     compatible:
     - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
     recommended: 2.1.1
     deprecated: []
   dependencies:
@@ -3453,9 +3464,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638072343720000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.1/manual/index.html
   hasRepository: 1
   repository:
